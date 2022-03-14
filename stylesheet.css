@@ -16,8 +16,6 @@ body {
 
 /* Ahmad Raihanul Gibran  */
 .navbar {
-    /* background-color: #6c629c;
-    border-bottom: 1px solid #e5e5e5; */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     height: 60px;
     position: absolute;
@@ -38,7 +36,6 @@ body {
     transition: 0.3s;
 }
 .navbar ul li a {
-    /* border: white 1px solid; */
     padding: 5px 15px;
     border-radius: 16px;
     text-decoration: none;
@@ -49,7 +46,6 @@ body {
 }
 .navbar ul li a:hover {
     background-color: #e5e5e5;
-    
     padding: 5px 15px;
     border-radius: 18px;
     text-decoration: none;
@@ -65,6 +61,10 @@ body {
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 1px;
+}
+
+.fa-solid {
+    padding-right: 15px;
 }
 header {
 	background: linear-gradient(-45deg, #4e4165, #6c629c, #b3e8e8, #6b879e);
