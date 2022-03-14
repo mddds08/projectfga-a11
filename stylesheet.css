@@ -54,7 +54,6 @@ body {
     font-weight: 400;
     transition: 0.3s;
 }
-
 .navbar p {
     font-family: 'Fredoka', sans-serif;
     color: white;
@@ -72,7 +71,6 @@ header {
 	animation: gradient 15s ease infinite;
     height: 400px;
 }
-
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
