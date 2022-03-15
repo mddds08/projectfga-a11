@@ -214,7 +214,7 @@ footer{
     list-style:none;
     cursor: pointer;
 }
-.wrap{
+.wrapp{
     float: left;
     padding: 10px;
     font-size: 20px;
@@ -226,7 +226,7 @@ footer{
 .fa-brands{
     color: white;
 }
-.wrap:hover{
+.wrapp:hover{
     opacity: 1.5;
 }    
 .copy{
