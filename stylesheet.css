@@ -1,20 +1,127 @@
 
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    height: 10000px;
+}
+.container {
+    font-family: 'Nunito Sans', sans-serif;
+    width: 100%;
+}
+
+/* Ahmad Raihanul Gibran  */
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 60px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+.navbar ul li {
+    padding: 17px 25px;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.navbar ul li a {
+    padding: 5px 15px;
+    border-radius: 16px;
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+.navbar ul li a:hover {
+    background-color: #e5e5e5;
+    padding: 5px 15px;
+    border-radius: 18px;
+    text-decoration: none;
+    color:#6c629c;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+.navbar p {
+    font-family: 'Fredoka', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-right: 40px;
+}
+
+.fa-solid {
+    padding-right: 15px;
+}
+header {
+	background: linear-gradient(-45deg, #4e4165, #6c629c, #b3e8e8, #6b879e);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    height: 400px;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+	}
+	50% {
+        background-position: 100% 50%;
+	}
+	100% {
+        background-position: 0% 50%;
+	}
+}
+.header {
+    padding: 100px;
+}
+.header h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.header p {
+    font-family: 'Fredoka', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* Ahmad Raihanul Gibran  */
 
 .main {
     height:400px;
-    background-image: url("https://media.giphy.com/media/PjxPX98p8ncCOzgKYP/giphy.gif");
+    background-color: whitesmoke;
 }
 .main-content {
-    padding-top: 50px;
+    padding-top: 100px;
     text-align: center;
 }
 .main h1 {
     font-family:'nunito sans', Courier, monospace;
     font-size: 35px;
-    color: white;
+    color: black;
 }
 .main p {
-    font-family:'source sans', Courier, monospace;
-    color: white;
+    padding-top: 25px;
+    padding-left: 250px;
+    padding-right: 250px;
+    font-family:'nunito sans', Courier, monospace;
+    color: black;
 }
-
+/* Adi Riyanto  */
