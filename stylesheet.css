@@ -104,24 +104,75 @@ header {
 }
 /* Ahmad Raihanul Gibran  */
 
+/* Adi Riyanto  */
 .main {
-    height:400px;
+    margin-top: 200px;
+    height:800px;
+    
     background-color: whitesmoke;
 }
-.main-content {
-    padding-top: 100px;
+.main-content-header {
+    padding-top: 50px;
     text-align: center;
 }
-.main h1 {
+.main-content-header h1 {
     font-family:'nunito sans', Courier, monospace;
     font-size: 35px;
     color: black;
 }
-.main p {
+.main-content-header p {
     padding-top: 25px;
-    padding-left: 250px;
-    padding-right: 250px;
+    margin-left: 250px;
+    margin-right: 250px;
     font-family:'nunito sans', Courier, monospace;
     color: black;
 }
+.main-content-primary{
+    position: relative;
+    margin-left:50px;
+    margin-right: auto;
+    
+}
+.main-content-item-display{
+    text-align: center;
+    
+}
+.main-content-item {
+    width: 30%;
+    height: 400px;
+    float: left;
+    padding-top: 100px;
+    margin-right: 40px;
+    
+
+}
+.main-content-item-border {
+  
+  border-style: outset;
+}
+.main-content-item-border:hover {
+    box-shadow: 0 0 12px 1px rgb(80 184 220 / 70%);
+}
+.main-content-item h1 {
+    
+    font-family:'nunito sans', Courier, monospace;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+}
+.main-content-item p {
+    font-family:'nunito sans', Courier, monospace;
+    text-align: center;
+    padding: 10px;
+}
+.main-content-item img {
+
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 350px;
+}
+
 /* Adi Riyanto  */
