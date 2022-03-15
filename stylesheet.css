@@ -1,1 +1,20 @@
 
+
+.main {
+    height:400px;
+    background-image: url("https://media.giphy.com/media/PjxPX98p8ncCOzgKYP/giphy.gif");
+}
+.main-content {
+    padding-top: 50px;
+    text-align: center;
+}
+.main h1 {
+    font-family:'nunito sans', Courier, monospace;
+    font-size: 35px;
+    color: white;
+}
+.main p {
+    font-family:'source sans', Courier, monospace;
+    color: white;
+}
+
