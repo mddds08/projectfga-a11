@@ -21,7 +21,6 @@ body {
     height: 60px;
     width: 100%;
     top : 0;
-    z-index: 999;
     background-color: #6c629c;
     transition: top 0.3s;
 }
@@ -62,7 +61,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 1px;
-    margin-right: 20px;
+    margin-right: 19px;
 }
 
 .fa-solid {
