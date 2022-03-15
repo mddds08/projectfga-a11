@@ -8,10 +8,31 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Nunito+Sans&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+<<<<<<< HEAD
   
                  <link rel="stylesheet"href="//use.fontawesome.com/releases/v6.0.0/css/all.css">
+=======
+    <link rel="stylesheet"href="//use.fontawesome.com/releases/v6.0.0/css/all.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//use.fontawesome.com/releases/v6.0.0/css/all.css">
+>>>>>>> 13c77f041c4345c53371ff29d2cf83ebd6034aa3
     <title>LearnByA11</title>
 </head>
+<script>
+    $(function() {
+    var header = $(".navbar");
+  
+    $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
+        if (scroll >= 100) {
+            header.addClass("scrolled");
+        } else {
+            header.removeClass("scrolled");
+        }
+    });
+  
+});
+</script>
 <body>
    
     <!-- Ahmad Raihanul Gibran -->
@@ -37,8 +58,9 @@
                 <p>LearnByA11</p>
             </div>
         </div>
-    </header>
+</header>
     <!-- Ahmad Raihanul Gibran -->
+    
      <!-- Adi Riyanto -->
      <div class="main">
         <div class="container">
@@ -96,5 +118,77 @@
     </div> 
     </div>
     <!-- Adi Riyanto -->
+
+    <!-- Adi Miftahul Azis -->
+        <div class="container5">
+        <h1>Contact Us</h1>
+        <p>kami akan senang untuk menanggapi pertanyaan Anda dan membantu Anda sukses</p>
+    <div class="contact-box">
+        <div class="contact-left">
+            <h3>Sent your request</h3>
+            <form action="">
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Name</label>
+                        <input type="text" placeholder="Your Name">
+                    </div>
+                    <div class="input-group">
+                        <label>Phone</label>
+                        <input type="text" placeholder="Phone">
+                    </div>
+                </div>
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Email</label>
+                        <input type="text" placeholder="Your Email">
+                    </div>
+                    <div class="input-group">
+                        <label>Subject</label>
+                        <input type="text" placeholder="Subject">
+                    </div>
+                </div>
+                <label>Message</label>
+                <textarea name="" id="" rows="5" placeholder="Message"></textarea>
+                <input type="submit" class="button" value="send">
+            </form>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <div class="last">
+            <div class="last-section">
+                <h3>LearnByA11</h3>
+                <p>A Service UI Designer & Web Developer</p>
+            </div>
+            <div class="last-section">
+                <h4>Useful Links</h4>
+                <ul>
+                    <li ><a href="#"></a>> Home</li>
+                    <li><a href="#"></a>> About Us</li>
+                    <li><a href="#"></a>> Service</li>
+                    <li><a href="#"></a>> Tim Profil</li>
+                </ul>
+            </div>
+            <div class="last-section">
+                <h4>Contact</h4>
+                <p>Jl.Aryakamuning jakarta</p><br>
+                <p>kode pos : 45556</p>
+            </div>
+            <div class="last-section">
+                <h4>Social Media</h4>
+                <ul>
+                    <li class="wrapp"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li class="wrapp"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li class="wrapp"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li class="wrapp"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy">
+            <p>© Copyright 2022 <b>LearnByA11.</b> All Rights Reserved</p>
+        </div>
+    </footer>
+    <!-- Adi Miftahul Azis -->
+>>>>>>> 13c77f041c4345c53371ff29d2cf83ebd6034aa3
 </body>
 </html>
