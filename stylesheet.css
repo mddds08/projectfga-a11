@@ -142,7 +142,7 @@ header {
 /* Adi Riyanto  */
 .main {
     margin-top: 200px;
-    height:800px;
+    height:1000px;
     
     background-color: whitesmoke;
 }
@@ -191,7 +191,7 @@ header {
 .main-content-item h1 {
     
     font-family:'nunito sans', Courier, monospace;
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
     padding: 10px;
 }
