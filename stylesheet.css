@@ -240,6 +240,7 @@ header {
 }
 .main-content-item {
     width: 30%;
+    display: block;
     height: 450px;
     float: left;
     padding-top: 100px;
