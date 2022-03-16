@@ -216,16 +216,15 @@ header {
   #check:checked~ul {
     left: 0;
   }
-
-  header {
-    padding-top: 20px;
+  .header {
+    padding-top: 100px;
+    padding-left: 40px;
   }
-
   .header h1 {
     
     text-align: left;
     letter-spacing: 5px;
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .header p {
