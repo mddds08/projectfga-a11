@@ -331,125 +331,66 @@ header {
 /* Adi Riyanto  */
 .main {
   padding-top: 100px;
-  height: 1000px;
 
   background-color: whitesmoke;
 }
-
 .main-content-header {
   padding-top: 50px;
   text-align: center;
 }
-
 .main-content-header h1 {
-
   font-size: 35px;
   color: black;
-}
+  padding: 0 50px;
 
+}
 .main-content-header p {
-  padding-top: 25px;
-  margin-left: 250px;
-  margin-right: 250px;
+  padding: 30px;
   color: black;
+  margin-bottom: 30px;
 }
-
 .main-content-primary {
-  position: relative;
-  margin-left: 50px;
-  margin-right: auto;
-
-}
-
-.main-content-item-display {
-  text-align: center;
-
-}
-
-.main-content-item {
-    width: 30%;
+    width: 100%;
     display: flex;
-    height: 450px;
-    flex-wrap: wrap;
-    float: left;
-    padding-top: 100px;
-    margin-right: 40px;
-    justify-content: space-around;
-    
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: center;
 }
-
-.main-content-item-border {
-  opacity: 0.7;
-  display: block;
-  border-radius: 20px;
-  border-style: outset;
+.main-content-item {
+    width: 300px;
+    margin: 20px;
 }
-
-.main-content-item-border:hover {
-  opacity: 1;
-  display: block;
-  box-shadow: 0 0 12px 1px rgb(80 184 220 / 70%);
-}
-
 .main-content-item h1 {
-
   font-size: 25px;
   text-align: center;
-  padding: 15px;
+  padding-top: 20px;
 }
 
 .main-content-item p {
-
   text-align: center;
   font-size: 15px;
   padding: 15px;
+  margin-bottom: 40px;
 }
-
 .main-content-item img {
-
-  padding: 15px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 20px;
-  height: 400px;
-  width: 350px;
+  border-radius: 30px;
+  width: 300px;
+  height: 335px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
 }
-@media (max-width: 1300px) {
-    .main {
-        height: 1700px;
-      
-        background-color: whitesmoke;
-      }
-    .main-content-item {
-        width: 40%;
-        margin-bottom: 200px;
-      }
-    
+.main-content-item img:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
-
-
-@media (max-width: 858px) {
-    .main {
-        height: 2400px;
-      
-        background-color: whitesmoke;
-      }
-    .main-content-item {
-      margin-bottom: 130px;
-      width: 80%;
-    }
-    
-.main-content-header p {
-    padding-top: 25px;
-    margin-left: 50px;
-    margin-right: 50px;
-    color: black;
-  }
+img.second {
+    margin-top: 20px;
+}
+img.third {
+    margin-top: 20px;
 }
 
 /* Adi Riyanto  */
-
 
 /* Adi Miftahul Azis  */
 .container5 {
