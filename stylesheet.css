@@ -174,7 +174,7 @@ header {
 }
 .main-content-item {
     width: 30%;
-    height: 400px;
+    height: 450px;
     float: left;
     padding-top: 100px;
     margin-right: 40px;
@@ -182,10 +182,11 @@ header {
 
 }
 .main-content-item-border {
-  
+  opacity: 0.7;
   border-style: outset;
 }
 .main-content-item-border:hover {
+    opacity: 1;
     box-shadow: 0 0 12px 1px rgb(80 184 220 / 70%);
 }
 .main-content-item h1 {
@@ -193,16 +194,17 @@ header {
     font-family:'nunito sans', Courier, monospace;
     font-size: 25px;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
 }
 .main-content-item p {
     font-family:'nunito sans', Courier, monospace;
     text-align: center;
-    padding: 10px;
+    font-size: 15px;
+    padding: 15px;
 }
 .main-content-item img {
 
-    padding: 10px;
+    padding: 15px;
     display: block;
     margin-left: auto;
     margin-right: auto;
