@@ -367,22 +367,27 @@ header {
 }
 
 .main-content-item {
-  width: 30%;
-  height: 450px;
-  float: left;
-  padding-top: 100px;
-  margin-right: 40px;
-
+    width: 30%;
+    display: flex;
+    height: 450px;
+    flex-wrap: wrap;
+    float: left;
+    padding-top: 100px;
+    margin-right: 40px;
+    justify-content: space-around;
+    
 }
 
 .main-content-item-border {
   opacity: 0.7;
+  display: block;
   border-radius: 20px;
   border-style: outset;
 }
 
 .main-content-item-border:hover {
   opacity: 1;
+  display: block;
   box-shadow: 0 0 12px 1px rgb(80 184 220 / 70%);
 }
 
@@ -409,6 +414,38 @@ header {
   border-radius: 20px;
   height: 400px;
   width: 350px;
+}
+@media (max-width: 1300px) {
+    .main {
+        height: 1700px;
+      
+        background-color: whitesmoke;
+      }
+    .main-content-item {
+        width: 40%;
+        margin-bottom: 200px;
+      }
+    
+}
+
+
+@media (max-width: 858px) {
+    .main {
+        height: 2400px;
+      
+        background-color: whitesmoke;
+      }
+    .main-content-item {
+      margin-bottom: 130px;
+      width: 80%;
+    }
+    
+.main-content-header p {
+    padding-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: black;
+  }
 }
 
 /* Adi Riyanto  */
