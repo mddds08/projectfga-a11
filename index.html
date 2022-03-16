@@ -1,206 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Nunito+Sans&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet"href="//use.fontawesome.com/releases/v6.0.0/css/all.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="//use.fontawesome.com/releases/v6.0.0/css/all.css">
-    <title>LearnByA11</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fredoka&family=Nunito+Sans&family=Source+Sans+Pro:wght@600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v6.0.0/css/all.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="//use.fontawesome.com/releases/v6.0.0/css/all.css">
+  <title>LearnByA11</title>
 </head>
 <script>
-    $(function() {
+  $(function () {
     var header = $("nav");
-  
-    $(window).scroll(function() {    
-        var scroll = $(window).scrollTop();
-        if (scroll >= 100) {
-            header.addClass("scrolled");
-        } else {
-            header.removeClass("scrolled");
-        }
-    });
-  
-});
-    $(document).ready(function(){
-    $("a").on('click', function(event) {
-    if (this.hash !== "") {
-      event.preventDefault();
 
-      var hash = this.hash;
+    $(window).scroll(function () {
+      var scroll = $(window).scrollTop();
+      if (scroll >= 100) {
+        header.addClass("scrolled");
+      } else {
+        header.removeClass("scrolled");
+      }
+    });
 
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-        window.location.hash = hash;
+  });
+  $(document).ready(function () {
+    $("a").on('click', function (event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+
+        var hash = this.hash;
+
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function () {
+          window.location.hash = hash;
+        });
+      }
     });
-    }
-    });
-});
+  });
 </script>
 </script>
+
 <body>
-    <!-- Ahmad Raihanul Gibran -->
-    <div class="nav" id="home">
-        <div class="container">
-            <nav>
-                <input type="checkbox" id="check">
-                <label for="check" class="checkbtn">
-                  <i class="fas fa-bars"></i>
-                </label>
-                <label class="logo">LearnByA11</label>
-                <ul>            
-                  <li class="wrap"><a href="#home"><i class="fa-solid fa-house"></i>Home</a></li>
-                  <li class="wrap"><a href="#layanan"><i class="fa-solid fa-pager"></i></i>Layanan</a></li>
-                  <li class="wrap"><a href="#profil"><i class="fa-solid fa-id-card"></i></i>Profil Tim</a></li>
-                  <li class="wrap"><a href="#tentang"><i class="fa-solid fa-users"></i></i>Tentang</a></li>
-                  <li class="wrap"><a href="#kontak"><i class="fa-solid fa-envelope"></i>Kontak</a></li>
-              </ul>
-              </nav>
-        </div>
-    </div>
-    <header>
-        
-        <div class="container">
-            <div class="header">
-                <h1>Tempat terbaik untuk belajar dan memperluas pengetahuan anda dibidang IT.</h1>
-                <p>LearnByA11</p>
-            </div>
-        </div>
-</header>
-<!-- Ahmad Raihanul Gibran -->
- <!-- Adi Riyanto -->
- <div class="main">
+  <!-- Ahmad Raihanul Gibran -->
+  <div class="nav" id="home">
     <div class="container">
-    <div class="main-content-header" id="tentang">
-        <h1>Kenapa LearnByA11 Academy Berbeda</h1>
-        <p>Saatnya bijak memilih sumber belajar. Tak hanya materi yang terjamin, LearnByA11 Academy juga memiliki reviewer profesional yang akan mengulas kode Anda.</p>
-      
+      <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">LearnByA11</label>
+        <ul>
+          <li class="wrap"><a href="#home"><i class="fa-solid fa-house"></i>Home</a></li>
+          <li class="wrap"><a href="#layanan"><i class="fa-solid fa-pager"></i></i>Our Service</a></li>
+          <li class="wrap"><a href="#profil"><i class="fa-solid fa-id-card"></i></i>Team Profile</a></li>
+          <li class="wrap"><a href="#tentang"><i class="fa-solid fa-users"></i></i>About Us</a></li>
+          <li class="wrap"><a href="#kontak"><i class="fa-solid fa-envelope"></i>Contact Us</a></li>
+        </ul>
+      </nav>
     </div>
-    <div class="main-content-primary">
-    <div class="main-content-item">
-        <div class="main-content-item-border">
-       
-            
-            <div class="main-content-item-img">
-            <img src="img/undraw_Ideas_flow_re_bmea.png">
-            </div>
+  </div>
+  <header>
 
-            <div class="main-content-item-paragraf">
+    <div class="container">
+      <div class="header">
+        <h1>Tempat terbaik untuk belajar dan memperluas pengetahuan anda dibidang IT.</h1>
+        <p>LearnByA11</p>
+      </div>
+    </div>
+  </header>
+  <!-- Ahmad Raihanul Gibran -->
 
-            <h1>Kurikulum standar industri global</h1>
-            <p >Kurikulum dikembangkan bersama perusahaan dan pemilik teknologi dunia sesuai kebutuhan industri terkini.</p>
+  <!-- Anisa Meidriarti -->
+  <div class="main">
+    <div class="container-services">
+      <div class="main-content-layanan" id="layanan">
+        <h1>Our Service</h1>
+        <div class="services-wrapper">
+          <div class="services-content">
+            <img src="/img/our-service/web-design.png" alt="Web-Design">
+            <div class="text-content">
+              <h3>WEB DESIGN</h3>
+              <p>"Improvements to existing website designs or initial concepts."</p>
             </div>
+          </div>
+          <div class="services-content">
+            <img src="/img/our-service/web-development.png" alt="Web-Design">
+            <div class="text-content">
+              <h3>WEB DEVELOPER</h3>
+              <p>"In The Right Place at The Right Time to Build a Website."</p>
+            </div>
+          </div>
+          <div class="services-content">
+            <img src="/img/our-service/graphic-design.png" alt="Web-Design">
+            <div class="text-content">
+              <h3>GRAPHIC DESIGN</h3>
+              <p>"Design Like A Pro and Out of The Box."</p>
+            </div>
+          </div>
+          <div class="services-content">
+            <img src="/img/our-service/ilustrator-design.png" alt="Web-Design">
+            <div class="text-content">
+              <h3>ILUSTRATION DESIGN</h3>
+              <p>"Brilliant Illustration, Simplified, and Unique."</p>
+            </div>
+          </div>
+          <div class="services-content">
+            <img src="/img/our-service/app-design.png" alt="Web-Design">
+            <div class="text-content">
+              <h3>APPLICATION DESIGN</h3>
+              <p>"Helpfull Design for Full Responsive Apps."</p>
+            </div>
+          </div>
+          <div class="services-content">
+            <img src="/img/our-service/consult-support.png" alt="Web-Design">
+            <div class="text-content">
+              <h3>CONSULT & SUPPORT</h3>
+              <p>"Fast Respond even Though in Rest Time."</p>
+            </div>
+          </div>
         </div>
-   
-            
+      </div>
     </div>
-   <!--test-->
 
-     <div class="main-content-item">
-        <div class="main-content-item-border">
-            <div class="main-content-item-img">
-            <img class="main-img"src="img/undraw_Dev_productivity_re_fylf.png">
-            </div>
-            <div class="main-content-item-paragraf">
-            <h1>Belajar fleksibel sesuai jadwal Anda</h1>
-            <p >Belajar kapan pun, di mana pun, secara mandiri. Bebas memilih kelas sesuai minat belajar. Akses seumur hidup ke kelas dan forum diskusi setelah lulus.</p>
-            </div>
-        </div>  
-               
-            
-    </div>
-     <div class="main-content-item">
-        <div class="main-content-item-border">
-            <div class="main-content-item-img">
-            <img src="img/undraw_Personal_finance_re_ie6k.png">
-            </div>
-            <div class="main-content-item-paragraf">
-            <h1>Code Review dari Developer Expert</h1>
-            <p >Validasi skill Anda melalui 1-on-1 Professional Code Review yang diberikan langsung oleh Developer Expert.</p>
-            </div>
+    <!-- Anisa Meidriarti -->
+
+    <!-- Adi Riyanto -->
+    <div class="main">
+      <div class="container">
+        <div class="main-content-header" id="tentang">
+          <h1>Kenapa LearnByA11 Academy Berbeda</h1>
+          <p>Saatnya bijak memilih sumber belajar. Tak hanya materi yang terjamin, LearnByA11 Academy juga memiliki
+            reviewer profesional yang akan mengulas kode Anda.</p>
+
         </div>
-            
+        <div class="main-content-primary">
+          <div class="main-content-item">
+            <div class="main-content-item-border">
+
+
+              <div class="main-content-item-img">
+                <img src="img/undraw_Ideas_flow_re_bmea.png">
+              </div>
+
+              <div class="main-content-item-paragraf">
+
+                <h1>Kurikulum standar industri global</h1>
+                <p>Kurikulum dikembangkan bersama perusahaan dan pemilik teknologi dunia sesuai kebutuhan industri
+                  terkini.</p>
+              </div>
+            </div>
+
+
+          </div>
+
+
+          <div class="main-content-item">
+            <div class="main-content-item-border">
+              <div class="main-content-item-img">
+                <img class="main-img" src="img/undraw_Dev_productivity_re_fylf.png">
+              </div>
+              <div class="main-content-item-paragraf">
+                <h1>Belajar fleksibel sesuai jadwal Anda</h1>
+                <p>Belajar kapan pun, di mana pun, secara mandiri. Bebas memilih kelas sesuai minat belajar. Akses
+                  seumur hidup ke kelas dan forum diskusi setelah lulus.</p>
+              </div>
+            </div>
+
+
+          </div>
+          <div class="main-content-item">
+            <div class="main-content-item-border">
+              <div class="main-content-item-img">
+                <img src="img/undraw_Personal_finance_re_ie6k.png">
+              </div>
+              <div class="main-content-item-paragraf">
+                <h1>Code Review dari Developer Expert</h1>
+                <p>Validasi skill Anda melalui 1-on-1 Professional Code Review yang diberikan langsung oleh Developer
+                  Expert.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
     </div>
-</div>
-</div> 
-</div>
-<!-- Adi Riyanto -->
+    <!-- Adi Riyanto -->
 
     <!-- Adi Miftahul Azis -->
     <div class="container5">
-        <h1>Contact Us</h1>
-        <p>Kami akan senang untuk menanggapi pertanyaan anda dan membantu anda</p>
-    <div class="contact-box">
+      <h1>Contact Us</h1>
+      <p>Kami akan senang untuk menanggapi pertanyaan anda dan membantu anda</p>
+      <div class="contact-box">
         <div class="contact-left">
-            <h3>Sent your request</h3>
-            <form action="">
-                <div class="input-row">
-                    <div class="input-group">
-                        <label>Name</label>
-                        <input type="text" placeholder="Your Name">
-                    </div>
-                    <div class="input-group">
-                        <label>Phone</label>
-                        <input type="text" placeholder="Phone">
-                    </div>
-                </div>
-                <div class="input-row">
-                    <div class="input-group">
-                        <label>Email</label>
-                        <input type="text" placeholder="Your Email">
-                    </div>
-                    <div class="input-group">
-                        <label>Subject</label>
-                        <input type="text" placeholder="Subject">
-                    </div>
-                </div>
-                <label>Message</label>
-                <textarea name="" id="" rows="5" placeholder="Message"></textarea>
-                <input type="submit" class="button" value="send">
-            </form>
+          <h3>Sent your request</h3>
+          <form action="">
+            <div class="input-row">
+              <div class="input-group">
+                <label>Name</label>
+                <input type="text" placeholder="Your Name">
+              </div>
+              <div class="input-group">
+                <label>Phone</label>
+                <input type="text" placeholder="Phone">
+              </div>
+            </div>
+            <div class="input-row">
+              <div class="input-group">
+                <label>Email</label>
+                <input type="text" placeholder="Your Email">
+              </div>
+              <div class="input-group">
+                <label>Subject</label>
+                <input type="text" placeholder="Subject">
+              </div>
+            </div>
+            <label>Message</label>
+            <textarea name="" id="" rows="5" placeholder="Message"></textarea>
+            <input type="submit" class="button" value="send">
+          </form>
         </div>
-    </div>
+      </div>
     </div>
     <footer>
-        <div class="last">
-            <div class="last-section">
-                <h3>LearnByA11</h3>
-                <p>Tempat terbaik untuk belajar dan memperluar pengetahuan anda dibidang IT</p>
-            </div>
-            <div class="last-section">
-                <h4>Useful Links</h4>
-                <ul>
-                    <li ><a href="#"></a>> Home</li>
-                    <li><a href="#"></a>> About Us</li>
-                    <li><a href="#"></a>> Service</li>
-                    <li><a href="#"></a>> Tim Profil</li>
-                </ul>
-            </div>
-            <div class="last-section">
-                <h4>Contact</h4>
-                <p>Jl.Aryakamuning jakarta</p><br>
-                <p>kode pos : 45556</p>
-            </div>
-            <div class="last-section">
-                <h4>Social Media</h4>
-                <ul>
-                    <li class="wrapp"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                    <li class="wrapp"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                    <li class="wrapp"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                    <li class="wrapp"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-                </ul>
-            </div>
+      <div class="last">
+        <div class="last-section">
+          <h3>LearnByA11</h3>
+          <p>Tempat terbaik untuk belajar dan memperluar pengetahuan anda dibidang IT</p>
         </div>
-        <div class="copy">
-            <p>© Copyright 2022 <b>LearnByA11.</b> All Rights Reserved</p>
+        <div class="last-section">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#"></a>> Home</li>
+            <li><a href="#"></a>> About Us</li>
+            <li><a href="#"></a>> Service</li>
+            <li><a href="#"></a>> Tim Profil</li>
+          </ul>
         </div>
+        <div class="last-section">
+          <h4>Contact</h4>
+          <p>Jl.Aryakamuning jakarta</p><br>
+          <p>kode pos : 45556</p>
+        </div>
+        <div class="last-section">
+          <h4>Social Media</h4>
+          <ul>
+            <li class="wrapp"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="wrapp"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li class="wrapp"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li class="wrapp"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copy">
+        <p>© Copyright 2022 <b>LearnByA11.</b> All Rights Reserved</p>
+      </div>
     </footer>
     <!-- Adi Miftahul Azis -->
 </body>
+
 </html>
